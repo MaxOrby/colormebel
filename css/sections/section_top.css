@@ -1,0 +1,71 @@
+#top {
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+    background: url(../img/front-page_top.jpg) no-repeat right top;
+    height: 550px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    z-index: -2;
+}
+
+@media (max-width: 1750px) {
+    #top::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255,255,255, .35);
+        z-index: -1;
+        transition: all .5s;
+    
+    }
+  }
+ 
+
+
+
+
+
+
+.top_title{
+max-width: 650px;
+}
+
+.top_title span{
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+}
+
+.top_title small{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+.top_title h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 20px 0 40px;
+}
+
+.top_item ul{
+    margin-bottom: 30px;
+}
+
+.top_item li{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.top_item li .icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

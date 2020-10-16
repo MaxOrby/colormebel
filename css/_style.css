@@ -1,0 +1,10 @@
+@import 'color.css';
+@import 'global.css';
+
+
+@import 'sections/header.css';
+
+@import 'sections/section_top.css';
+
+
+@import 'sections/footer.css';
