@@ -1,12 +1,12 @@
 #top {
     margin-top: -50px;
+    margin-bottom: 20px;
     position: relative;
     display: flex;
     background: url(../img/front-page_top.jpg) no-repeat right top;
     height: 550px;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 0;
     z-index: -2;
 }
 
