@@ -14,15 +14,15 @@ body {
   font-weight: 100;
   background: url(../img/background_wd.jpg) -30px top repeat-y;
   color: var(--dark);
-  transform: all .3s;
+  transition: all .2s;
 }
-/*
-  @media (max-width: 1750px) {
+
+  @media (max-width: 1720px) {
     body{
         background-position-x: -60px;
     }
   }
-*/
+
 
 
 
@@ -114,4 +114,21 @@ address{
 
 .blue{
   background-color: var(--blue);
+}
+
+
+.block_title{
+  margin-bottom: 60px;
+}
+
+.block_title h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.block_title small{
+  font-size: 24px;
+  font-weight: 500;
+  display: block;
 }
